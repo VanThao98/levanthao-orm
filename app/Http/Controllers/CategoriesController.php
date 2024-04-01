@@ -9,7 +9,7 @@ class CategoriesController extends Controller
     //
     public function __construct(Request $request){
         if($request->is('categories')){
-            echo "xin chao hunghoang";
+            echo "xin chao vanthao";
         }
     }
     //hiển thị danh sách chuyên mục GET
